@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9BAE5E11235BBBE600BAF6BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E10235BBBE600BAF6BE /* main.swift */; };
+		9BAE5E23235BC38900BAF6BE /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E22235BC38900BAF6BE /* Internet.swift */; };
+		9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E24235BC3AC00BAF6BE /* Mobile.swift */; };
+		9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E26235BC3B900BAF6BE /* Hydro.swift */; };
+		9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E28235BC3C700BAF6BE /* Insurance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		9BAE5E0D235BBBE600BAF6BE /* C0761022_F2019_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0761022_F2019_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAE5E10235BBBE600BAF6BE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BAE5E22235BC38900BAF6BE /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9BAE5E24235BC3AC00BAF6BE /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9BAE5E26235BC3B900BAF6BE /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9BAE5E28235BC3C700BAF6BE /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 		9BAE5E20235BC2C300BAF6BE /* bills */ = {
 			isa = PBXGroup;
 			children = (
+				9BAE5E22235BC38900BAF6BE /* Internet.swift */,
+				9BAE5E24235BC3AC00BAF6BE /* Mobile.swift */,
+				9BAE5E26235BC3B900BAF6BE /* Hydro.swift */,
+				9BAE5E28235BC3C700BAF6BE /* Insurance.swift */,
 			);
 			path = bills;
 			sourceTree = "<group>";
@@ -151,6 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */,
+				9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */,
+				9BAE5E23235BC38900BAF6BE /* Internet.swift in Sources */,
+				9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */,
 				9BAE5E11235BBBE600BAF6BE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
