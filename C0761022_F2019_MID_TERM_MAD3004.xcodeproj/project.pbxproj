@@ -12,6 +12,7 @@
 		9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E24235BC3AC00BAF6BE /* Mobile.swift */; };
 		9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E26235BC3B900BAF6BE /* Hydro.swift */; };
 		9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E28235BC3C700BAF6BE /* Insurance.swift */; };
+		9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		9BAE5E24235BC3AC00BAF6BE /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9BAE5E26235BC3B900BAF6BE /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9BAE5E28235BC3C700BAF6BE /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
+		9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coustmers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		9BAE5E21235BC30800BAF6BE /* coustmer */ = {
 			isa = PBXGroup;
 			children = (
+				9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */,
 			);
 			path = coustmer;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */,
+				9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */,
 				9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */,
 				9BAE5E23235BC38900BAF6BE /* Internet.swift in Sources */,
 				9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */,
