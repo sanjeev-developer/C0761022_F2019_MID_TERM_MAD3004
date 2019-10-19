@@ -14,6 +14,10 @@
 		9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E28235BC3C700BAF6BE /* Insurance.swift */; };
 		9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */; };
 		9BAE5E2D235BC41500BAF6BE /* DisplayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E2C235BC41500BAF6BE /* DisplayProtocol.swift */; };
+		9BAE5E2F235BC44600BAF6BE /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E2E235BC44600BAF6BE /* DateFormatting.swift */; };
+		9BAE5E31235BC45600BAF6BE /* CurrencyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E30235BC45600BAF6BE /* CurrencyFormatting.swift */; };
+		9BAE5E33235BC46900BAF6BE /* InternetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E32235BC46900BAF6BE /* InternetData.swift */; };
+		9BAE5E35235BC47E00BAF6BE /* MobileMinutees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E34235BC47E00BAF6BE /* MobileMinutees.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +41,10 @@
 		9BAE5E28235BC3C700BAF6BE /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coustmers.swift; sourceTree = "<group>"; };
 		9BAE5E2C235BC41500BAF6BE /* DisplayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayProtocol.swift; sourceTree = "<group>"; };
+		9BAE5E2E235BC44600BAF6BE /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		9BAE5E30235BC45600BAF6BE /* CurrencyFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatting.swift; sourceTree = "<group>"; };
+		9BAE5E32235BC46900BAF6BE /* InternetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetData.swift; sourceTree = "<group>"; };
+		9BAE5E34235BC47E00BAF6BE /* MobileMinutees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMinutees.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		9BAE5E1E235BC29400BAF6BE /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9BAE5E2E235BC44600BAF6BE /* DateFormatting.swift */,
+				9BAE5E30235BC45600BAF6BE /* CurrencyFormatting.swift */,
+				9BAE5E32235BC46900BAF6BE /* InternetData.swift */,
+				9BAE5E34235BC47E00BAF6BE /* MobileMinutees.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -169,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAE5E35235BC47E00BAF6BE /* MobileMinutees.swift in Sources */,
+				9BAE5E2F235BC44600BAF6BE /* DateFormatting.swift in Sources */,
 				9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */,
+				9BAE5E33235BC46900BAF6BE /* InternetData.swift in Sources */,
+				9BAE5E31235BC45600BAF6BE /* CurrencyFormatting.swift in Sources */,
 				9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */,
 				9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */,
 				9BAE5E2D235BC41500BAF6BE /* DisplayProtocol.swift in Sources */,
