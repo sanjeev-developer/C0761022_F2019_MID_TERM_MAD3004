@@ -18,6 +18,7 @@
 		9BAE5E31235BC45600BAF6BE /* CurrencyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E30235BC45600BAF6BE /* CurrencyFormatting.swift */; };
 		9BAE5E33235BC46900BAF6BE /* InternetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E32235BC46900BAF6BE /* InternetData.swift */; };
 		9BAE5E35235BC47E00BAF6BE /* MobileMinutees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E34235BC47E00BAF6BE /* MobileMinutees.swift */; };
+		9BAE5E39235BC5FB00BAF6BE /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E38235BC5FB00BAF6BE /* Bill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		9BAE5E30235BC45600BAF6BE /* CurrencyFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatting.swift; sourceTree = "<group>"; };
 		9BAE5E32235BC46900BAF6BE /* InternetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetData.swift; sourceTree = "<group>"; };
 		9BAE5E34235BC47E00BAF6BE /* MobileMinutees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMinutees.swift; sourceTree = "<group>"; };
+		9BAE5E38235BC5FB00BAF6BE /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		9BAE5E0F235BBBE600BAF6BE /* C0761022_F2019_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
-				9BAE5E21235BC30800BAF6BE /* coustmer */,
+				9BAE5E37235BC5D900BAF6BE /* mainfiles */,
 				9BAE5E20235BC2C300BAF6BE /* bills */,
 				9BAE5E1F235BC2AA00BAF6BE /* protocols */,
 				9BAE5E1E235BC29400BAF6BE /* extensions */,
-				9BAE5E10235BBBE600BAF6BE /* main.swift */,
 			);
 			path = C0761022_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -116,12 +117,14 @@
 			path = bills;
 			sourceTree = "<group>";
 		};
-		9BAE5E21235BC30800BAF6BE /* coustmer */ = {
+		9BAE5E37235BC5D900BAF6BE /* mainfiles */ = {
 			isa = PBXGroup;
 			children = (
+				9BAE5E10235BBBE600BAF6BE /* main.swift */,
 				9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */,
+				9BAE5E38235BC5FB00BAF6BE /* Bill.swift */,
 			);
-			path = coustmer;
+			path = mainfiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +188,7 @@
 				9BAE5E2F235BC44600BAF6BE /* DateFormatting.swift in Sources */,
 				9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */,
 				9BAE5E33235BC46900BAF6BE /* InternetData.swift in Sources */,
+				9BAE5E39235BC5FB00BAF6BE /* Bill.swift in Sources */,
 				9BAE5E31235BC45600BAF6BE /* CurrencyFormatting.swift in Sources */,
 				9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */,
 				9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */,

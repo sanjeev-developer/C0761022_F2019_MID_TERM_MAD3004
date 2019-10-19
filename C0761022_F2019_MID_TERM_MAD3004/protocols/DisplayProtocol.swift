@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol DisplayProtocols
+protocol DisplayProtocol
 {
     func DisplayData()
     
