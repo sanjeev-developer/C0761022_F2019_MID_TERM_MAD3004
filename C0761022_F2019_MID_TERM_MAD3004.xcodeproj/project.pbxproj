@@ -13,6 +13,7 @@
 		9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E26235BC3B900BAF6BE /* Hydro.swift */; };
 		9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E28235BC3C700BAF6BE /* Insurance.swift */; };
 		9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */; };
+		9BAE5E2D235BC41500BAF6BE /* DisplayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE5E2C235BC41500BAF6BE /* DisplayProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		9BAE5E26235BC3B900BAF6BE /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9BAE5E28235BC3C700BAF6BE /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9BAE5E2A235BC3F000BAF6BE /* Coustmers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coustmers.swift; sourceTree = "<group>"; };
+		9BAE5E2C235BC41500BAF6BE /* DisplayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		9BAE5E1F235BC2AA00BAF6BE /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				9BAE5E2C235BC41500BAF6BE /* DisplayProtocol.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				9BAE5E27235BC3B900BAF6BE /* Hydro.swift in Sources */,
 				9BAE5E2B235BC3F000BAF6BE /* Coustmers.swift in Sources */,
 				9BAE5E25235BC3AC00BAF6BE /* Mobile.swift in Sources */,
+				9BAE5E2D235BC41500BAF6BE /* DisplayProtocol.swift in Sources */,
 				9BAE5E23235BC38900BAF6BE /* Internet.swift in Sources */,
 				9BAE5E29235BC3C700BAF6BE /* Insurance.swift in Sources */,
 				9BAE5E11235BBBE600BAF6BE /* main.swift in Sources */,
