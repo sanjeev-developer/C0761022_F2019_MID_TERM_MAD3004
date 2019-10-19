@@ -11,10 +11,6 @@ import Foundation
 extension Float {
     func currencyFormat() ->String
     {
-        // return "$\(self).00"
         return String(format: "$%0.2f", Float(self))
     }
-    
-    
-    
 }
