@@ -8,11 +8,14 @@
 
 import Foundation
 
-class Bill
+class Bill : DisplayProtocol
 {
-    var billId : String
-    var billDate : String
+    func DisplayData() {
+        
+    }
     
+    var billId : String
+    var billDate :  String
     enum Types {
         case Internet
         case Hydro

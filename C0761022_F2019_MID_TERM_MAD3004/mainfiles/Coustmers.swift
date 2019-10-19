@@ -17,12 +17,43 @@ class Customers : DisplayProtocol
     var email : String = ""
     //var bill : Bill
     
-    //var bill = Bill()
-   // var billDictionary = Dictionary<String,Bill>()
+    var billDictionary = Dictionary<String,Bill>()
     var  totalBill : Float = 0
     
     func DisplayData() {
         <#code#>
     }
-
+    
+ //   var  totalBill : Float = 0
+    
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billDictionary = billDictionary
+        self.fullName = firstName + lastName
+    }
+    
+    
+    func iDisplay() {
+        print("**************************************************************")
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
+        
+        //check if customer has any bills
+        if billDictionary.count == 0
+        {
+            print("No bills for this customer")
+        }
+        
+        
+        //display bill details by iterating through bill dictionary
+        for i in billDictionary.values
+        {
+            i.DisplayProtcol()
+        }
+        
+    }
 }

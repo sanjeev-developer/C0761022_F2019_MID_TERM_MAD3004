@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+extension Float
+{
+    func gbUsed() -> String {
+        return "\(self) GB"
+    }
+    
+    
+    func dataUnitFormat() -> String {
+        return "\(self) Units"
+    }
+    
+    
+}
