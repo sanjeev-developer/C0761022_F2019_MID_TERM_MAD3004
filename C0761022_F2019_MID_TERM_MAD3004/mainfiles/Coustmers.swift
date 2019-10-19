@@ -21,7 +21,7 @@ class Customers : DisplayProtocol
     var  totalBill : Float = 0
     
     func DisplayData() {
-        <#code#>
+       
     }
     
  //   var  totalBill : Float = 0
@@ -52,7 +52,7 @@ class Customers : DisplayProtocol
         //display bill details by iterating through bill dictionary
         for i in billDictionary.values
         {
-            i.DisplayProtcol()
+            i.DisplayData()
         }
         
     }

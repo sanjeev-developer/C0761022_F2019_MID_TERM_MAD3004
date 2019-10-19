@@ -13,19 +13,23 @@ var custDictionary = Dictionary<String,Customers>()
 
 //customer 1
 var i = Internet(providerName: "Freedom", gbUsed: 45.7, billId: "I001", billDate: date1!, billAmount: 56.7, billType: Bill.Types.Internet)
+
 var m = Mobile(manufacturerName: "Apple", planName: "Big Gig", mobileNumber: "123456789", internetUsed: 6.7, minutesUsed: 476, billAmount: 78.6, billId: "m001", billType:Bill.Types.Mobile, billDate: date3!)
+
 var h = Hydro(agencyName: "Planet Energy", unitsConsumed: 56.7, billAmount: 150, billId: "H101", billType: Bill.Types.Hydro, billDate: date2!)
 
-var c = Customer(customerId: "C001", firstName: "Raju ", lastName: "Bhai", email: "@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h])
+var c = Customers(customerId: "C001", firstName: "Raju ", lastName: "Bhai", email: "@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h])
 
 //customer 2
 var i1 = Internet(providerName: "Rogers", gbUsed: 100.9, billId: "I001", billDate: date1!, billAmount: 89.5, billType: Bill.Types.Internet)
+
 var h1 = Hydro(agencyName: "Planet Energy", unitsConsumed: 67.8, billAmount: 67, billId: "H001", billType: Bill.Types.Hydro, billDate: date3!)
-var c1 = Customer(customerId: "C002", firstName: "Reena ", lastName: "Kaur", email: "@gmail.com", billDictionary : [i1.billId:i1,h1.billId:h1])
+
+var c1 = Customers(customerId: "C002", firstName: "Reena ", lastName: "Kaur", email: "@gmail.com", billDictionary : [i1.billId:i1,h1.billId:h1])
 
 //customer 3
 
-var c2 = Customer(customerId: "C003", firstName: "Sam ", lastName: "Developer", email: "Sanjeec @developer.com", billDictionary: [:])
+var c2 = Customers(customerId: "C003", firstName: "Sam ", lastName: "Developer", email: "Sanjeec @developer.com", billDictionary: [:])
 
 
 //creating customer dictionary
