@@ -57,9 +57,41 @@
 		9BAE5E0F235BBBE600BAF6BE /* C0761022_F2019_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9BAE5E21235BC30800BAF6BE /* coustmer */,
+				9BAE5E20235BC2C300BAF6BE /* bills */,
+				9BAE5E1F235BC2AA00BAF6BE /* protocols */,
+				9BAE5E1E235BC29400BAF6BE /* extensions */,
 				9BAE5E10235BBBE600BAF6BE /* main.swift */,
 			);
 			path = C0761022_F2019_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		9BAE5E1E235BC29400BAF6BE /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		9BAE5E1F235BC2AA00BAF6BE /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		9BAE5E20235BC2C300BAF6BE /* bills */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bills;
+			sourceTree = "<group>";
+		};
+		9BAE5E21235BC30800BAF6BE /* coustmer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = coustmer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
