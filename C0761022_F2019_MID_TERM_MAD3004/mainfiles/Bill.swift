@@ -15,6 +15,7 @@ class Bill : DisplayProtocol
     }
     
     
+    
     var billId : String
     var billDate :  String
     enum Types {
