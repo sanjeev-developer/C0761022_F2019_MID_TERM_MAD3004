@@ -21,7 +21,6 @@ var mob = Mobile(manufacturerName: "Pixel", planName: "SuperDuper", mobileNumber
 var hydra = Hydro(agencyName: "toronto energy", unitsConsumed: 100, billAmount: 200, billId: "hydra001", billType: Bill.Types.Hydro, billDate: hydrobilldate!)
 var c = Customers(customerId: "l001", firstName: "sanjeev ", lastName: "gupta", email: "sanjeev@gmail.com", billDictionary : [iot.billId:iot,mob.billId:mob,hydra.billId:hydra,ins.billId:ins ])
 
-
 //customer 2
 var iot1 = Internet(providerName: "Chatr", gbUsed: 20, billId: "int002", billDate: internetbilldate!, billAmount: 20.70, billType: Bill.Types.Internet)
 var hydra1 = Hydro(agencyName: "bramptonhydro", unitsConsumed: 50.8, billAmount: 70, billId: "hydra002", billType: Bill.Types.Hydro, billDate: hydrobilldate!)
