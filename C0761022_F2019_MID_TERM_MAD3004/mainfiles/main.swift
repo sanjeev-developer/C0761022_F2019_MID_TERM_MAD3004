@@ -27,6 +27,7 @@ var hydra1 = Hydro(agencyName: "bramptonhydro", unitsConsumed: 50.8, billAmount:
 var c1 = Customers(customerId: "l002", firstName: "samuel ", lastName: "willson", email: "sam@gmail.com", billDictionary : [iot1.billId:iot1,hydra1.billId:hydra1])
 
 
+
 //customer 3
 var c2 = Customers(customerId: "l003", firstName: "bill ", lastName: "gates", email: "bill@developer.com", billDictionary: [:])
 
