@@ -12,6 +12,7 @@ let enddate = formatter.date(from: "2021/09/09")?.dateformatter()
 //customer dictionary
 var customerDictionary = Dictionary<String,Customers>()
 
+
 //customer 1
 //type:String, provider: String, startdate: String,enddate: String, billId : String, billType : Bill.Types, billDate : String
 var iot = Internet(providerName: "Fido", gbUsed: 10.50, billId: "int001", billDate: internetbilldate!, billAmount: 40.70, billType: Bill.Types.Internet)
