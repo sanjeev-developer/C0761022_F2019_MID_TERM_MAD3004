@@ -6,15 +6,19 @@ formatter.dateFormat = "yyyy/MM/dd"
 let internetbilldate = formatter.date(from: "2019/07/10")?.dateformatter()
 let mobilebilldate = formatter.date(from: "2019/08/08")?.dateformatter()
 let hydrobilldate = formatter.date(from: "2019/09/09")?.dateformatter()
+let statrdate = formatter.date(from: "2018/08/08")?.dateformatter()
+let enddate = formatter.date(from: "2021/09/09")?.dateformatter()
 
 //customer dictionary
 var customerDictionary = Dictionary<String,Customers>()
 
 //customer 1
+//type:String, provider: String, startdate: String,enddate: String, billId : String, billType : Bill.Types, billDate : String
 var iot = Internet(providerName: "Fido", gbUsed: 10.50, billId: "int001", billDate: internetbilldate!, billAmount: 40.70, billType: Bill.Types.Internet)
+var ins = Insurance(type:"Home", provider: "Life Insurance", startdate: statrdate!, enddate: enddate!, insuranceindays: "364 days", totalinstopay: "$450.00", billId: "Ins001", billDate: internetbilldate!, billAmount: 450.70, billType: Bill.Types.Insurance)
 var mob = Mobile(manufacturerName: "Pixel", planName: "SuperDuper", mobileNumber: "4372475796", internetUsed: 60, minutesUsed: 500, billAmount: 56.50, billId: "mob001", billType:Bill.Types.Mobile, billDate: mobilebilldate!)
 var hydra = Hydro(agencyName: "toronto energy", unitsConsumed: 100, billAmount: 200, billId: "hydra001", billType: Bill.Types.Hydro, billDate: hydrobilldate!)
-var c = Customers(customerId: "l001", firstName: "sanjeev ", lastName: "gupta", email: "sanjeev@gmail.com", billDictionary : [iot.billId:iot,mob.billId:mob,hydra.billId:hydra])
+var c = Customers(customerId: "l001", firstName: "sanjeev ", lastName: "gupta", email: "sanjeev@gmail.com", billDictionary : [iot.billId:iot,mob.billId:mob,hydra.billId:hydra,ins.billId:ins ])
 
 //customer 2
 var iot1 = Internet(providerName: "Chatr", gbUsed: 20, billId: "int002", billDate: internetbilldate!, billAmount: 20.70, billType: Bill.Types.Internet)
@@ -33,6 +37,9 @@ customerDictionary.updateValue(c2, forKey: c2.customerId)
 //print bill details of all customers
 for i in customerDictionary.values{
     i.iDisplay()
+    print("")
+    
 }
+
 
 

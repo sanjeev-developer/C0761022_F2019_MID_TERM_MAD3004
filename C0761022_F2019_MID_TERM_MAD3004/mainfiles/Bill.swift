@@ -20,6 +20,7 @@ class Bill : DisplayProtocol
         case Internet
         case Hydro
         case Mobile
+        case Insurance
     }
     
     var billType : Types

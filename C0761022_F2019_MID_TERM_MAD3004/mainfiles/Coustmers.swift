@@ -53,6 +53,7 @@ class Customers : DisplayProtocol
         for i in billDictionary.values
         {
             i.DisplayData()
+            
         }
         
     }
